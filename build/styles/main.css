@@ -104,9 +104,15 @@ footer {
   }
 }
 @media (max-width: 767px) {
+  .container {
+    width: 90%;
+    padding: 0 10px;
+  }
+  
   .products {
     display: block;
   }
+  
   .product-item {
     margin-bottom: 32px;
   }
